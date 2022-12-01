@@ -1,0 +1,35 @@
+.course_card_container {
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_card {
+    width: 60%;
+    height: 90%;
+    background-color: #060606;
+    border-radius: 3px;
+    color: #338DB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.course_card_inner {
+
+    width: 80%;
+    height: 90%;
+    color: #338DB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.course_card_inner p {
+    color: white;
+}

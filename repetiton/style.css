@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #292929;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    width: 400px;
+    height: 300px;
+    background-color:#3C3C3C;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -moz-box-shadow:     0 0 100px #000000;
+    -webkit-box-shadow:  0 0 100px #000000;
+     box-shadow:          0 0 100px #000000;
+     box-shadow: 0 0 0 50px solid black;
+}
+
+.numContainer {
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+margin-bottom: 20px;    
+}
+
+
+
+.resultDiv {
+    text-align: center;
+    margin-top: 30px;
+    width: 80px;
+    height: 48px;
+
+    color: white;
+    font-size: 30px;
+}
+
+
+#num1 {
+    transition: all .35s;
+    background-color: #3CBC8D;
+    height: 30px;
+    color: white;
+    border-style: none;
+    margin-right: 10px;
+    border-radius: .5px;
+    text-align: center;
+    font-size: 14px;
+    outline: 0;
+    border: 1px solid #3CBC8D;
+}
+
+#num1:focus {
+    background-color: #277d5e;
+}
+
+#num2 {
+    transition: all .35s;
+    background-color: #3CBC8D;
+    height: 30px;
+    color: white;
+    border-style: none;
+    border-radius: .5px;
+    text-align: center;
+    font-size: 14px;
+    outline: 0;
+    border: 1px solid #3CBC8D;
+}
+#num2:focus {
+    
+    background-color: #277d5e;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 55px;
+   
+
+}
+
+button {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+    transition: all .35s;
+    background-color: #3C3C3C;
+    border: 1px solid #3CBC8D;
+    width: 50px;
+    height: 25px;
+    color: white;
+    
+}
+
+button:hover {
+    background-color: #3CBC8D;
+    border: transparent 1px solid;
+}
+
+button:focus {
+    background-color: #277d5e;
+    outline: 0;
+}

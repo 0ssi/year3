@@ -1,0 +1,8 @@
+.item {
+    user-select: none;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
